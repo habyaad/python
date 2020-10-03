@@ -28,3 +28,10 @@ elif choice=='5':
     print(num1, "^", num2, "=", power(num1,num2))
 else:
     print("Please choose the correct option.")
+
+### Check for even or odd numbers
+number = int(input("Enter a number: "))
+if number % 2 == 0:
+    print(number, " is even")
+elif:
+    print(number, " is odd")
